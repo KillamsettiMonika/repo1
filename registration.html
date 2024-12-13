@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>REGISTRATION FORM</b></legend>
+    <form action="">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">First Name : </label>
+        <input type="text" name="name" placeholder="enter your first name"><br></br>
+        <label for="name1">Last Name : </label>
+        <input type="text" name="name1" placeholder="enter your last name"><br></br>
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="">male
+        <input type="radio" name="gender" id="">female <br><br>
+        <label for="age">Age : </label>
+        <input type="number" name="age" id=""><br><br>
+        <label for="dob">Date of birth : </label>
+        <input type="date" name="dob" id=""><br><br>
+        <label for="email">Email : </label>
+        <input type="email" name="email" placeholder="enter your email"><br></br>
+        <label for="ps">Password : </label>
+        <input type="password" name="ps" id=""><br></br>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Educational information</legend>
+            <label for="school">SSC :</label>
+            <input type="number" name="school" placeholder="in percentage"><br><br>
+            <label for="inter">inter marks : </label>
+            <input type="number" name="inter" placeholder="in marks"><br><br>
+            <label for="cgpa">CGPA : </label>
+            <input type="number" name="cgpa" placeholder="current cgpa">
+        </fieldset>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="course">Course : </label>
+            <select name="course" id="">
+                <option value="1">degree</option>
+                <option value="2">btech</option>
+                <option value="3">mba</option>
+            </select><br><br>
+            <label for="special">specialization : </label>
+            <select name="special" id="">
+                <optgroup label="degree">
+                    <option value="1">it</option>
+                    <option value="2">hec</option>
+                    <option value="3">cse</option>
+                </optgroup>
+                <optgroup label="btech">
+                    <option value="1">cse</option>
+                    <option value="2">csm</option>
+                    <option value="3">csd</option>
+                    <option value="4">it</option>
+                    <option value="5">eee</option>
+                    <option value="6">ece</option>
+                    <option value="7">civil</option>
+                    <option value="8">mech</option>
+                </optgroup>
+                <optgroup label="mba">
+                    <option value="1">hr</option>
+                    <option value="2">finance</option>
+                    <option value="3">manegement</option>
+                </optgroup>
+            </select><br><br>
+            <label for="stay">Stay : </label>
+            <select name="stay" id="">
+                <option value="1">dayscholar</option>
+                    <option value="2">hostel</option>
+            </select><br><br>
+            <label for="fee">Fee mode :</label>
+            <input type="text" list="fee mode" name="fee" id="fee" placeholder="select">
+    <datalist id="fee mode">
+        <option value="1">online</option>
+        <option value="2">offline</option>
+    </datalist><br><br>
+    
+
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feed">Feedback : </label><br>
+            <textarea name="feed" id="" cols="30" rows="5"></textarea><br><br>
+            <label for="profile">Profile photo : </label>
+            <input type="file" name="profile" id=""><br><br>
+            <label for="range">technical skills</label>
+            <input type="range" name="range" id="">
+        </fieldset><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</fieldset>
+</body>
+</html>
