@@ -29,9 +29,33 @@
         <input type="submit" value="Submit">
 
     </fieldset>
+    <form action="">
+        <select name="counry" id="">
+            <option value="india">India</option>
+            <option value="us">US</option>
+        </select>
+    </form>
+    <select name="vehivle" id="">
+        <optgroup label="car">
+            <option value="bmw">bmw</option>
+            <option value="audi">audi</option>
+            <option value="tesla">tesla</option>
+        </optgroup>
+        <optgroup label="bike">
+            <option value="duke">duke</option>
+            <option value="mahindra">mahindra</option>
+            <option value="herohonda">herohonda</option>
+        </optgroup>
+    </select>
     
 </form>
-    
-
+<form action="">
+    <input type="text" list="ice cream flavours" name="ice cream" id="ice cream" placeholder="select">
+    <datalist id="ice cream flavours">
+        <option value="s">straberry</option>
+        <option value="b">butterscotch</option>
+        <option value="v">venilla</option>
+    </datalist>
+</form>
 </body>
 </html>
