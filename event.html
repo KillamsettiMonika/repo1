@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend ><b>EVENT REGISTRATION</b></legend><br>
+            <fieldset>
+                <legend>STUDENT DETAILS</legend><br>           
+            <label for="name">First Name : </label>
+        <input type="text" name="name" placeholder="enter your first name"><br></br>
+        <label for="name1">Last Name : </label>
+        <input type="text" name="name1" placeholder="enter your last name"><br></br>
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" id="">male
+        <input type="radio" name="gender" id="">female <br><br>
+        <label for="phone">Mobile number : </label>
+        <input type="number" name="phone" placeholder="enter your mobile number"><br><br>
+        <label for="email">Email : </label>
+        <input type="email" name="email" placeholder="enter your email"><br></br>
+        <label for="clg">College name : </label>
+        <input type="text" name="clg" placeholder="enter your college name"><br><br>
+        <label for="course">Course : </label>
+            <select name="course" id="">
+                <option value="1">degree</option>
+                <option value="2">btech</option>
+                <option value="3">mba</option>
+            </select><br><br>
+            <label for="special">branch : </label>
+            <select name="special" >
+                <optgroup label="degree">
+                    <option value="1">it</option>
+                    <option value="2">hec</option>
+                    <option value="3">cse</option>
+                </optgroup>
+                <optgroup label="btech">
+                    <option value="1">cse</option>
+                    <option value="2">csm</option>
+                    <option value="3">csd</option>
+                    <option value="4">it</option>
+                    <option value="5">eee</option>
+                    <option value="6">ece</option>
+                    <option value="7">civil</option>
+                    <option value="8">mech</option>
+                </optgroup>
+                <optgroup label="mba">
+                    <option value="1">hr</option>
+                    <option value="2">finance</option>
+                    <option value="3">manegement</option>
+                </optgroup>
+            </select><br><br>
+            <label for="year">Year of the study : </label>
+            <select name="year" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br><br>
+            <label for="stay">Stay : </label>
+            <select name="stay" id="">
+                <option value="1">dayscholar</option>
+                    <option value="2">hostel</option>
+            </select><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>EVENT DETAILS</legend>
+        <label for="role">Role : </label>
+        <select name="role" id="">
+            <option value="1">participant</option>
+            <option value="2">volunteer</option>
+        </select><br>
+        <p>// Kindly ignore to fill below details if you are a volunteer //</p>
+        <label for="special">Event : </label>
+            <select name="special" >
+                <optgroup label="educational event">
+                    <option value="1">workshop</option>
+                    <option value="2">webinar</option>
+                    <option value="3">hackathon</option>
+                </optgroup>
+                <optgroup label="cultural event">
+                    <option value="1">group dancing</option>
+                    <option value="2">group singing</option>
+                    <option value="3">drama</option>
+                    <option value="4">solo dancing</option>
+                    <option value="5">solo singing</option>
+                    <option value="6">acting</option>
+                    <option value="7">painting</option>
+                    <option value="8">crafting</option>
+                </optgroup>
+                <optgroup label="sports events">
+                    <option value="1">cricket</option>
+                    <option value="2">go carting</option>
+                    <option value="3">football</option>
+                </optgroup>
+            </select><br><br>
+            <label for="session">Preferred session : </label>
+            <select name="session" id="">
+                <option value="1">10:30 am - 12:00 pm (e,c,s)</option>
+                <option value="2">2:00 pm - 3:30 pm (c,s)</option>
+                <option value="3">6:30 pm - 8:00pm(c)</option>
+            </select><br>
+            <p><b>note : </b> <br>e-eductional events <br>c-cultural events <br> s- sports events </p>
+            <p>you can register for more than one event </p>
+            <label for="namet">Team name : </label>
+            <input type="text" name="namet" placeholder="enter your team name"><br><br>
+            <label for="mem">Members in your team : </label>
+            <input type="number" name="mem">           
+    </fieldset>
+    <fieldset>
+        <legend>FEE DETAILS</legend>
+        <label for="fee">Fee : </label>
+        <input type="text" name="fee" id="fee" placeholder="select" list="fees">
+        <datalist id="fees">
+            <option value="eductional">1500</option>
+            <option value="cultural(single)">3000</option>
+            <option value="cultural(group)">6000</option>
+            <option value="sports">8000</option>
+        </datalist><br><br>
+        <label for="mode">Fee mode : </label>
+        <input type="radio" name="mode" id="">online
+        <input type="radio" name="mode" >offline <br>
+        <p>make online payment to this number : <b>1234567890</b></p>
+        <p>make offline payment at this address : <b>aitam college,tekkali</b></p>
+        <p>kindly pay the fee before the event</p>
+    </fieldset><br>
+    <fieldset>
+        <legend>ADDITIONAL DETAILS : </legend>
+        <label for="id">ID proof : </label>
+        <input type="file" name="id" placeholder="upload your id proof"><br><br>
+        <label for="meal">Dietary Preferences : </label>
+        <select name="meal" id="">
+            <option value="1">veg</option>
+            <option value="2">non veg</option>
+            <option value="3">vegan</option>
+        </select><br>
+        <p>Regestration start from <b>17-12-2024</b> to <b>25-12-2024</b></p>
+        <p>event is on <b>27-12-2024</b></p>
+        <p>emergency contact number : <b>9087654321</b></p>
+    </fieldset>
+    <p><b>Terms and Conditions</b></p>
+        <ul type="square">
+            <li>Students must carry a valid college ID at all times during the event.</li>
+            <li>Participants should adhere to the event schedule and be punctual.</li>
+            <li>Any form of misconduct, including harassment or bullying, is strictly prohibited.</li>
+            <li>Respect the venue, equipment, and fellow participants.</li>
+            <li>All participants must follow the instructions given by the event coordinators.</li>
+            <li>Certificates of participation will be awarded only to students attending the entire event.</li>
+            <li>By registering, participants agree to these terms and conditions.</li>
+        </ul><br>
+        <input type="checkbox" name="" id=""> Hereby, I agree to the terms and conditions <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>
